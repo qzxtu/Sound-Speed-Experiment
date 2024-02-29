@@ -2,7 +2,7 @@
 
 This Python script is used to calculate the speed of sound at room temperature using different frequencies emitted by a speaker. The script also calculates the percentage error of the measured values with respect to the theoretical value.
 
-![image](https://github.com/qzxtu/Sound-Speed-Experiment/assets/69091361/74748872-c5c1-43d3-9827-d04eaf438f84)
+![image](https://github.com/qzxtu/Sound-Speed-Experiment/assets/69091361/754a8b4e-b535-4d52-b0f6-297a30cfea64)
 
 ## Dependencies
 
@@ -10,11 +10,21 @@ This script requires the following Python libraries:
 - numpy
 - matplotlib
 
-You can install these dependencies using pip:
+## Running the Script
+
+To run the script, follow these steps:
+
+1. Ensure that you have Python installed on your machine. You can download Python from the official website.
+2. Install the required dependencies using pip:
 ```bash
 pip install numpy matplotlib
 ```
-
+3. Navigate to the directory containing the `soundspeed.py` script in your terminal.
+4. Run the script using the following command:
+   
+   ```bash
+   python soundspeed.py
+   
 ## How it works
 
 1. The script first defines the frequencies of the sound emitted by the speaker and the theoretical speed of sound in air at room temperature.
